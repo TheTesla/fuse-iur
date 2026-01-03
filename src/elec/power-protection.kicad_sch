@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "f96ba537-a636-4056-ab3e-8435b128c895")
 	(paper "A4")
+	(title_block
+		(title "FUSE UIr")
+		(date "2026-01-03")
+		(rev "0.2")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
@@ -1004,9 +1009,8 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:BSS138"
+		(symbol "Transistor_FET:BSS83P"
 			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1021,7 +1025,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BSS138"
+			(property "Value" "BSS83P"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1041,7 +1045,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(property "Datasheet" "http://www.farnell.com/datasheets/1835997.pdf"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -1051,7 +1055,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(property "Description" "-0.33A Id, -60V Vds, P-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1060,7 +1064,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel MOSFET"
+			(property "ki_keywords" "P-Channel MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1078,7 +1082,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BSS138_0_1"
+			(symbol "BSS83P_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1117,6 +1121,18 @@
 				)
 				(polyline
 					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.762 0.508) (xy 0.762 -0.508)
 					)
 					(stroke
@@ -1139,30 +1155,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(circle
 					(center 1.651 0)
 					(radius 2.794)
@@ -1172,6 +1164,18 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -1222,7 +1226,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
 					)
 					(stroke
 						(width 0)
@@ -1234,7 +1238,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
 					)
 					(stroke
 						(width 0)
@@ -1245,7 +1249,7 @@
 					)
 				)
 			)
-			(symbol "BSS138_1_1"
+			(symbol "BSS83P_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2009,6 +2013,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSS83P")
+		(at 54.61 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b051553-5d53-4d6d-b16a-79f60464e780")
+		(property "Reference" "Q2"
+			(at 54.61 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSS83P"
+			(at 54.61 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 56.515 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.farnell.com/datasheets/1835997.pdf"
+			(at 58.42 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.33A Id, -60V Vds, P-Channel MOSFET, SOT-23"
+			(at 54.61 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a21631e-368f-43bc-a34a-c90b77fbdcc0")
+		)
+		(pin "1"
+			(uuid "aa29b1cf-9c5a-4d6a-90a7-4738d0576af2")
+		)
+		(pin "3"
+			(uuid "df7c3d65-d929-4d1c-b50f-62f9a36b2ee8")
+		)
+		(instances
+			(project "power-protection"
+				(path "/f96ba537-a636-4056-ab3e-8435b128c895"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BZV55B15")
 		(at 74.93 63.5 270)
 		(unit 1)
@@ -2383,80 +2460,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 115.57 29.21 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "946b348a-ce33-47c8-ba39-c26e419bb13f")
-		(property "Reference" "Q2"
-			(at 115.57 20.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 115.57 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 113.665 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 111.76 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 115.57 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d174adcf-faf0-4e1a-9d0a-4cdc25c4fe26")
-		)
-		(pin "3"
-			(uuid "5398594c-65f6-4b2d-ad60-9dcefa05490f")
-		)
-		(pin "1"
-			(uuid "464312d2-30c1-446e-bb00-498f10b5b402")
-		)
-		(instances
-			(project ""
-				(path "/f96ba537-a636-4056-ab3e-8435b128c895"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 74.93 34.29 0)
 		(unit 1)
@@ -2661,25 +2664,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 54.61 29.21 90)
+		(lib_id "Transistor_FET:BSS83P")
+		(at 115.57 29.21 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d183fa1e-dce6-4900-9e89-970602219616")
+		(uuid "e9810ab1-0e9f-4a76-8873-caaf212a4e17")
 		(property "Reference" "Q1"
-			(at 54.61 20.32 90)
+			(at 115.57 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BSS138"
-			(at 54.61 22.86 90)
+		(property "Value" "BSS83P"
+			(at 115.57 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2687,7 +2690,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 56.515 24.13 0)
+			(at 113.665 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,8 +2700,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 58.42 24.13 0)
+		(property "Datasheet" "http://www.farnell.com/datasheets/1835997.pdf"
+			(at 111.76 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2707,8 +2710,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 54.61 29.21 0)
+		(property "Description" "-0.33A Id, -60V Vds, P-Channel MOSFET, SOT-23"
+			(at 115.57 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,16 +2720,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "47942cb6-9547-4f8a-b403-9bc34299ea40")
-		)
-		(pin "3"
-			(uuid "41276010-f00a-4e9a-9c23-415bd1c01d70")
+			(uuid "b4242fab-bc79-4a88-9153-63cee129eb41")
 		)
 		(pin "1"
-			(uuid "d43ad1ec-4a2e-488d-a690-ef9b6c40208c")
+			(uuid "567e577c-7559-42ff-84fc-91e3db3569d1")
+		)
+		(pin "3"
+			(uuid "40f522de-e56e-4ba6-bc82-d3dc534ea3e2")
 		)
 		(instances
-			(project ""
+			(project "power-protection"
 				(path "/f96ba537-a636-4056-ab3e-8435b128c895"
 					(reference "Q1")
 					(unit 1)
