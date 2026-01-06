@@ -339,173 +339,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4148W"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148W"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-123"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?123*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148W_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148W_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:BZV55B15"
 			(pin_numbers
 				(hide yes)
@@ -1422,22 +1255,16 @@
 		(uuid "0967e4ad-002d-4cdc-b743-fcdc90770e30")
 	)
 	(junction
+		(at 62.23 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f702828-8867-42b7-a3da-bbf947fea8c4")
+	)
+	(junction
 		(at 100.33 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3415999e-dae1-4825-b363-3159fa0b2a60")
-	)
-	(junction
-		(at 62.23 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "364226e7-ce14-4723-8f2e-52ab2c89bcdc")
-	)
-	(junction
-		(at 62.23 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39e29b46-05fe-4a52-aab7-c8553341b155")
 	)
 	(junction
 		(at 100.33 26.67)
@@ -1462,6 +1289,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a8645ed-b3c0-4bc1-8da9-6b7753e696a6")
+	)
+	(junction
+		(at 62.23 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af79e435-4fba-43a7-a661-999dea7918ad")
 	)
 	(junction
 		(at 100.33 34.29)
@@ -1547,7 +1380,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 67.31) (xy 74.93 69.85)
+			(xy 74.93 58.42) (xy 74.93 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1564,6 +1397,16 @@
 			(type default)
 		)
 		(uuid "51f3a9cc-e509-49fa-b378-81a304e9a7fa")
+	)
+	(wire
+		(pts
+			(xy 76.2 40.64) (xy 74.93 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53fdc980-b796-4f22-86ba-d63fdbc9c034")
 	)
 	(wire
 		(pts
@@ -1617,16 +1460,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 62.23) (xy 62.23 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7169272d-d190-4ef9-b5e6-830b31580ec6")
-	)
-	(wire
-		(pts
 			(xy 62.23 26.67) (xy 62.23 33.02)
 		)
 		(stroke
@@ -1647,7 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 69.85) (xy 74.93 69.85)
+			(xy 62.23 59.69) (xy 74.93 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1694,16 +1527,6 @@
 			(type default)
 		)
 		(uuid "bc5492e6-db3a-476c-a627-98e78c052ca2")
-	)
-	(wire
-		(pts
-			(xy 74.93 40.64) (xy 74.93 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc99f94b-5210-4a1e-978c-cf622a714cd8")
 	)
 	(wire
 		(pts
@@ -1757,7 +1580,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 69.85) (xy 62.23 72.39)
+			(xy 62.23 59.69) (xy 62.23 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1767,7 +1590,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 40.64) (xy 74.93 40.64)
+			(xy 92.71 40.64) (xy 81.28 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1807,7 +1630,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 57.15) (xy 62.23 62.23)
+			(xy 62.23 57.15) (xy 62.23 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1837,6 +1660,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 68.58) (xy 62.23 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f23eda58-dc6e-4bfe-a08b-4ac242fd7f64")
+	)
+	(wire
+		(pts
 			(xy 100.33 34.29) (xy 100.33 35.56)
 		)
 		(stroke
@@ -1857,7 +1690,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 57.15) (xy 74.93 59.69)
+			(xy 74.93 40.64) (xy 74.93 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2087,7 +1920,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BZV55B15")
-		(at 74.93 63.5 270)
+		(at 74.93 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2096,7 +1929,7 @@
 		(fields_autoplaced yes)
 		(uuid "75ae6997-44d1-45a3-bf5a-523469c09adb")
 		(property "Reference" "D3"
-			(at 77.47 62.2299 90)
+			(at 77.47 53.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2105,7 +1938,7 @@
 			)
 		)
 		(property "Value" "BZV55B15"
-			(at 77.47 64.7699 90)
+			(at 77.47 55.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,7 +1947,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 70.485 63.5 0)
+			(at 70.485 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +1956,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 74.93 63.5 0)
+			(at 74.93 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,7 +1965,7 @@
 			)
 		)
 		(property "Description" "15V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 74.93 63.5 0)
+			(at 74.93 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2150,94 +1983,6 @@
 			(project ""
 				(path "/f96ba537-a636-4056-ab3e-8435b128c895"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 74.93 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7645581a-1801-4afb-b4df-d94bd063bc60")
-		(property "Reference" "D2"
-			(at 77.47 52.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 77.47 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 79.375 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 74.93 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 74.93 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 74.93 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 74.93 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "711f9df2-70a6-45f4-9a3a-93ebcf9abf40")
-		)
-		(pin "1"
-			(uuid "a9452166-36d1-4dbf-a358-b902baa093d5")
-		)
-		(instances
-			(project ""
-				(path "/f96ba537-a636-4056-ab3e-8435b128c895"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2530,7 +2275,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 62.23 90)
+		(at 62.23 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2539,7 +2284,7 @@
 		(fields_autoplaced yes)
 		(uuid "bacff344-21dd-4ad3-9f38-bb16ee07bc59")
 		(property "Reference" "#PWR01"
-			(at 68.58 62.23 0)
+			(at 68.58 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +2293,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 62.2299 90)
+			(at 66.04 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +2302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 62.23 0)
+			(at 62.23 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,7 +2311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 62.23 0)
+			(at 62.23 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +2320,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 62.23 0)
+			(at 62.23 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,6 +2477,75 @@
 			(project "power-protection"
 				(path "/f96ba537-a636-4056-ab3e-8435b128c895"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 78.74 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9dfe541-cb08-4799-8061-6ea5d5d68edc")
+		(property "Reference" "R4"
+			(at 80.01 37.338 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 78.232 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e01ffc40-71ea-4afc-9223-11d093731838")
+		)
+		(pin "2"
+			(uuid "77eb3500-394f-4486-9bc2-4b54ec7bb51b")
+		)
+		(instances
+			(project "power-protection"
+				(path "/f96ba537-a636-4056-ab3e-8435b128c895"
+					(reference "R4")
 					(unit 1)
 				)
 			)
